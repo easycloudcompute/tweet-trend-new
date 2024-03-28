@@ -89,8 +89,8 @@
         			<artifactId>maven-surefire-plugin</artifactId>
         			<version>2.22.2</version>
         			<configuration>
-        			<testFailureIgnore>true</testFailureIgnore>
-    				</configuration>
+					<argLine>${argLine} -Xmx2048m</argLine>
+				</configuration>
     			</plugin>
 		
 			<plugin>
