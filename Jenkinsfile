@@ -6,7 +6,7 @@ pipeline {
     }
 
     stages {
-        stage(‘clone-code’) {
+        stage('clone-code') {
             steps {
                git branch: 'main', url: 'https://github.com/easycloudcompute/tweet-trend-new.git'
             }
